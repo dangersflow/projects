@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #3c7a89;
+  border-radius: 5px;
+}
+
+.navbar a {
+  color: whitesmoke;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgba(245, 245, 245, 0.785);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

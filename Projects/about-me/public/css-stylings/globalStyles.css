@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 65%;
+  min-width: 65%;
+}
+
+aside {
+  display: flex;
+  width: 10px;
+}
+
+figure {
+  background-color: #3c7a89;
+  border: 5px solid #3c7a89;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  position: relative;
+  width: 20rem;
+}
+
+figcaption {
+  background-color: #3c7a89;
+  color: whitesmoke;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  bottom: 20px;
+  color: whitesmoke;
+  position: absolute;
+}
+
+html {
+  background-color: #16262e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+li,
+label,
+p {
+  color: whitesmoke;
+}
+
+img {
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}

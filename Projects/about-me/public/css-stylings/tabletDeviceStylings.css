@@ -1,0 +1,12 @@
+@media screen and (min-width: 700px) {
+  figure {
+    width: 15rem;
+  }
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  .col {
+    flex-wrap: nowrap;
+  }
+}

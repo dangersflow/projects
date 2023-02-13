@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+      function Greeting() {
+        // Delete this and implement useState here
+        const name = "";
+
+        function handleChange(event) {
+          // update your name state here based on event.target.value
+        }
+
+        return (
+          <div>
+            <form>
+              <label htmlFor="name">Name: </label>
+              <input onChange={handleChange} id="name" />
+            </form>
+            {name ? <strong>Hello {name}</strong> : "Please type your name"}
+          </div>
+        );
+      }
+
+      function App() {
+        return <Greeting />;
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

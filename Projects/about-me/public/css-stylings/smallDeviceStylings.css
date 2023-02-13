@@ -1,0 +1,19 @@
+@media screen and (min-width: 0px) {
+  figure {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  figure {
+    width: 10rem;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex-wrap: wrap;
+  }
+}
